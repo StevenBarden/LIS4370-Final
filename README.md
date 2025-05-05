@@ -11,7 +11,7 @@ To install IrisTools from GitHub, use the following commands in R:
 install.packages("devtools")
 
 # Install IrisTools from GitHub
-devtools::install_github("steven.barden/IrisTools")
+devtools::install_github("stevenbarden/IrisTools")
 
 # Load the package
 library(IrisTools)
