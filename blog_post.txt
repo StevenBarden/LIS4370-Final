@@ -1,0 +1,27 @@
+Title: IrisTools R Package
+
+Introduction
+I created IrisTools to analyze the iris dataset with simple functions.
+
+Design Decisions
+I chose iris because it’s built-in and versatile. I implemented three functions: calc_iris_means(), plot_iris(), and summarize_iris(). I used S3 classes for summaries and depended on dplyr and ggplot2 for functionality. The MIT license ensures open-source compatibility.
+
+Installation
+Install with:
+devtools::install_github("steven.barden/IrisTools")
+library(IrisTools)
+
+Usage Examples
+1. Calculate means by species:
+means <- calc_iris_means()
+print(means)
+
+2. Plot measurements:
+plot_iris()
+
+3. Summarize measurements:
+summary <- summarize_iris()
+print(summary)
+
+Conclusion
+This package meets the project requirements with clear documentation and functionality.

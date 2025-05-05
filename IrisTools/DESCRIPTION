@@ -1,0 +1,15 @@
+Package: IrisTools
+Type: Package
+Title: Tools for Analyzing the Iris Dataset
+Version: 0.1.0
+Author: Steven Barden <StevenBarden@usf.edu>
+Maintainer: Steven Barden <StevenBarden@usf.edu>
+Description: Provides functions to calculate means, summarize, and visualize the iris dataset with S3 classes.
+License: MIT + file LICENSE
+Imports: 
+    dplyr,
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
